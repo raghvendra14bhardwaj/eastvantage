@@ -7,7 +7,8 @@ import ReplayIcon from "@mui/icons-material/Replay";
 
 function Home() {
   const [userDetails, setUserDetails] = useState<UserDetail>(defaultUserDetails);
-  const fetchFromStorage: UserDetail = JSON.parse(localStorage.getItem("userDetails") ?? "");
+  const fetchDetails:string=localStorage.getItem("userDetails")!;
+  const fetchFromStorage: UserDetail = fetchDetails?JSON.parse(fetchDetails):defaultUserDetails;
   function refreshUser() {
     getUserDetails().then((data: UserDetail) => {
       if (data) {
