@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Avatar, Button, Card, CardContent, Skeleton, Stack, Typography } from "@mui/material";
-import { getUserDetails } from "../Data/Data";
-import { UserDetail } from "../Interface";
-import { defaultUserDetails } from "../Constant";
+import { getUserDetails } from "../../Data/Data";
+import { UserDetail } from "../../Interface";
+import { defaultUserDetails } from "../../Constant";
 import ReplayIcon from "@mui/icons-material/Replay";
 
 function Home() {
