@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eastvantage/static/css/main.f2d51c79.css",
-    "main.js": "/eastvantage/static/js/main.cab8a519.js",
+    "main.js": "/eastvantage/static/js/main.f6c79ccc.js",
     "static/js/453.eb66e835.chunk.js": "/eastvantage/static/js/453.eb66e835.chunk.js",
     "index.html": "/eastvantage/index.html",
     "main.f2d51c79.css.map": "/eastvantage/static/css/main.f2d51c79.css.map",
-    "main.cab8a519.js.map": "/eastvantage/static/js/main.cab8a519.js.map",
+    "main.f6c79ccc.js.map": "/eastvantage/static/js/main.f6c79ccc.js.map",
     "453.eb66e835.chunk.js.map": "/eastvantage/static/js/453.eb66e835.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2d51c79.css",
-    "static/js/main.cab8a519.js"
+    "static/js/main.f6c79ccc.js"
   ]
 }
